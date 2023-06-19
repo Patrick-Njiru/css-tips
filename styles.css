@@ -1,0 +1,37 @@
+.box-shadows {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.normal-box-shadow,
+.realistic-box-shadow {
+    width: 30vw;
+    height: 300px;
+    margin-top: 50px;
+    text-align: center;
+    background-color: lightblue;
+}
+
+.realistic-box-shadow {
+    -webkit-box-shadow:
+        rgba(0, 0, 0, 0.1) 0 2px 2px,
+        rgba(0, 0, 0, 0.1) 0 4px 4px,
+        rgba(0, 0, 0, 0.1) 0 8px 8px,
+        rgba(0, 0, 0, 0.1) 0 16px 16px,
+        rgba(0, 0, 0, 0.1) 0 32px 32px,
+        rgba(0, 0, 0, 0.1) 0 64px 64px
+        ;
+    box-shadow:
+        rgba(0, 0, 0, 0.1) 0 2px 2px,
+        rgba(0, 0, 0, 0.1) 0 4px 4px,
+        rgba(0, 0, 0, 0.1) 0 8px 8px,
+        rgba(0, 0, 0, 0.1) 0 16px 16px,
+        rgba(0, 0, 0, 0.1) 0 32px 32px,
+        rgba(0, 0, 0, 0.1) 0 64px 64px
+        ;
+}
+
+.normal-box-shadow {
+    -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
