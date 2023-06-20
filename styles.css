@@ -1,6 +1,12 @@
 .tips-list { width: 80vw;}
 
-/* Item 1 */
+/* List Item 0 */
+input:invalid{
+    border:1px solid red;
+    background-color: darkgray;
+}
+
+/* List Item 1 */
 .box-shadows {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -47,7 +53,7 @@
             box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
 }
 
-/* Item 2 */
+/* List Item 2 */
 table {
     border-collapse: collapse;
     width: 100%;
@@ -66,7 +72,7 @@ tr:nth-child(odd) {
     background-color: green;
 }
 
-/* Item 3 */
+/* List Item 3 */
 
 .gradient1, .gradient2, .gradient3, .gradient4 {
     height:300px;
@@ -103,6 +109,7 @@ tr:nth-child(odd) {
 
 .gradient5 {
     height: 400px;
+    width: 400px;
     border-radius: 50%;
 
     background-image: conic-gradient(from 323deg at 50% 50%, #FF0000 0%, #FFA500 17%, #FFFF00 34%, #008000 51%, #0000FF 68%, #4B0082 85%, #EE82EE 100%);
