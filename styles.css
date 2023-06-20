@@ -65,3 +65,45 @@ tr:nth-child(even) {
 tr:nth-child(odd) {
     background-color: green;
 }
+
+/* Item 3 */
+
+.gradient1, .gradient2, .gradient3, .gradient4 {
+    height:300px;
+    margin: 50px auto;
+    color: white;
+    font-weight: 600;
+    padding: 20px 0 0 10px;
+}
+
+.gradient1 {
+    color: black;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,255,0.1)), to(rgba(0,0,255,1)));
+    background-image: -o-linear-gradient(rgba(0,0,255,0.1), rgba(0,0,255,1));
+    background-image: linear-gradient(rgba(0,0,255,0.1), rgba(0,0,255,1));
+}
+
+.gradient2 {
+    color: black;
+    background-image: -webkit-gradient(linear, left top, right bottom, from(lightblue), to(purple));
+    background-image: -o-linear-gradient(top left, lightblue, purple);
+    background-image: linear-gradient(to bottom right, lightblue, purple);
+}
+
+.gradient3 {
+    background-image: -o-linear-gradient(132deg, rgba(255, 255, 0, 1) 0%, rgba(0, 188, 212, 1) 0%, rgba(15, 27, 33, 1) 10%, rgba(33, 150, 243, 1) 84%, rgba(10, 9, 20, 1) 100%);
+
+    background-image: linear-gradient(318deg, rgba(255, 255, 0, 1) 0%, rgba(0, 188, 212, 1) 0%, rgba(15, 27, 33, 1) 10%, rgba(33, 150, 243, 1) 84%, rgba(10, 9, 20, 1) 100%);
+}
+
+.gradient4 {
+    background-image: -o-radial-gradient(pink, purple);
+    background-image: radial-gradient(pink, purple)
+}
+
+.gradient5 {
+    height: 400px;
+    border-radius: 50%;
+
+    background-image: conic-gradient(from 323deg at 50% 50%, #FF0000 0%, #FFA500 17%, #FFFF00 34%, #008000 51%, #0000FF 68%, #4B0082 85%, #EE82EE 100%);
+}
