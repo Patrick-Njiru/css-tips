@@ -1,4 +1,6 @@
-.tips-list { width: 80vw;}
+.tips-list { 
+    width: 80vw;
+}
 
 /* List Item 0 */
 input:invalid{
@@ -8,16 +10,15 @@ input:invalid{
 
 /* List Item 1 */
 .box-shadows {
+    background: greenyellow;
+    padding-bottom: 50px;
+
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: space-evenly;
         -ms-flex-pack: space-evenly;
             justify-content: space-evenly;
-
-    background: greenyellow;
-    padding-bottom: 50px;
-
 }
 
 .normal-box-shadow,
@@ -25,6 +26,7 @@ input:invalid{
     width: 30vw;
     height: 300px;
     margin-top: 50px;
+
     text-align: center;
     background-color: orange;
 }
@@ -55,9 +57,12 @@ input:invalid{
 
 /* List Item 2 */
 table {
+    min-width: 300px;
+    width: 50%;
+    margin: auto;
+
     border-collapse: collapse;
-    width: 100%;
-    }
+}
 
 th, td {
     text-align: left;
@@ -73,17 +78,20 @@ tr:nth-child(odd) {
 }
 
 /* List Item 3 */
-
-.gradient1, .gradient2, .gradient3, .gradient4 {
-    height:300px;
-    margin: 50px auto;
+.gradient1, .gradient2, .gradient3, .gradient4, .gradient5 {
     color: white;
     font-weight: 600;
+
+    height:300px;
+    min-width: 300px;
+    width: 50%;
+    margin: 50px auto;
     padding: 20px 0 0 10px;
 }
 
 .gradient1 {
     color: black;
+
     background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,255,0.1)), to(rgba(0,0,255,1)));
     background-image: -o-linear-gradient(rgba(0,0,255,0.1), rgba(0,0,255,1));
     background-image: linear-gradient(rgba(0,0,255,0.1), rgba(0,0,255,1));
@@ -91,6 +99,7 @@ tr:nth-child(odd) {
 
 .gradient2 {
     color: black;
+    
     background-image: -webkit-gradient(linear, left top, right bottom, from(lightblue), to(purple));
     background-image: -o-linear-gradient(top left, lightblue, purple);
     background-image: linear-gradient(to bottom right, lightblue, purple);
@@ -98,7 +107,6 @@ tr:nth-child(odd) {
 
 .gradient3 {
     background-image: -o-linear-gradient(132deg, rgba(255, 255, 0, 1) 0%, rgba(0, 188, 212, 1) 0%, rgba(15, 27, 33, 1) 10%, rgba(33, 150, 243, 1) 84%, rgba(10, 9, 20, 1) 100%);
-
     background-image: linear-gradient(318deg, rgba(255, 255, 0, 1) 0%, rgba(0, 188, 212, 1) 0%, rgba(15, 27, 33, 1) 10%, rgba(33, 150, 243, 1) 84%, rgba(10, 9, 20, 1) 100%);
 }
 
@@ -109,8 +117,7 @@ tr:nth-child(odd) {
 
 .gradient5 {
     height: 400px;
-    width: 400px;
+    text-align: center;
     border-radius: 50%;
-
     background-image: conic-gradient(from 323deg at 50% 50%, #FF0000 0%, #FFA500 17%, #FFFF00 34%, #008000 51%, #0000FF 68%, #4B0082 85%, #EE82EE 100%);
 }
