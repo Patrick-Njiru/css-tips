@@ -1,3 +1,6 @@
+.tips-list { width: 80vw;}
+
+/* Item 1 */
 .box-shadows {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -42,4 +45,23 @@
 .normal-box-shadow {
     -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
             box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Item 2 */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    }
+
+th, td {
+    text-align: left;
+    padding: 10px;
+}
+
+tr:nth-child(even) {
+    background-color: grey;
+}
+
+tr:nth-child(odd) {
+    background-color: green;
 }
